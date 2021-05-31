@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,6 +26,34 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.submitButton{
+  margin: auto;
+  display: flex;
+  margin-top: 6px;
+}
+
+h1{
+  font-size: 40px;
+}
+
+ol{
+  margin: auto;
+  width: 200px;
+  /* display: flex; */
+  /* text-align: center; */
+  /* justify-content: center; */
+}
+
+li{
+  text-align: left;
+  width: auto;
+  margin-top: 6px;
+}
+
+.removeButton{
+  float: right;
 }
 
 @keyframes App-logo-spin {
